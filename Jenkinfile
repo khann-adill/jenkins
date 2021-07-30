@@ -1,7 +1,7 @@
 pipeline {
    agent any
    parameters {
-       string(defaultValue: ' ', description: 'Provide the required version', name: 'version')
+       string(defaultValue: '1.0', description: 'Provide the required version', name: 'version')
    }
 	stages {
       stage('shell') {
